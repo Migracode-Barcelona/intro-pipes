@@ -1,47 +1,57 @@
-# { Terminal Basics Exercises. }
+# { Terminal Piping Exercises. }
+ 
+Create a text file called ```vegetables.txt``` with the following text:
+```
+Lettuce
+Amaranth
+Beet
+Celery
+Kale
+Dill
+Cabbage
+Broccoli
+Lettuce
+Amaranth
+Beet
+Spinach
+Chard
+Broccoli
+Cabbage
+Dill
+```
 
-### Instructions for exercises 1 to 8:
+0. In your own words, explain the difference between a pipe and a redirect.
+```bash
+# Your answer goes here
+```
+
+### Instructions for exercises 1 to 5:
 * Find the command(s) to perform the task.
 * Test it in a terminal.
 * Replace "# Your answer goes here" with the command(s).
   * ➡️ For this you will have to modify this README.md file
 
-1. Make a directory called first
+1. Sort ```vegetables.txt```.
 ```bash
 # Your answer goes here
 ```
 
-2. Change directory to the first folder
+2. Count the number of lines in ```vegetables.txt```.
 ```bash
 # Your answer goes here
 ```
 
-3. Create a file called person.txt
+3. Create a file called ```vegetables_sorted.txt``` which contains all the unique vegetables sorted in ascending order in ```vegetables.txt``` (do this without the ```touch``` command).
 ```bash
 # Your answer goes here
 ```
 
-4. Change the name of person.txt to another.txt
+4. Create a file called ```last_three.txt``` which contains the last three vegetables in the ```vegetables.txt``` file (do this without the ```touch``` command).
 ```bash
 # Your answer goes here
 ```
 
-5. Make a copy of the another.txt file and call it copy.txt
-```bash
-# Your answer goes here
-```
-
-6. Remove the copy.txt file
-```bash
-# Your answer goes here
-```
-
-7. Make a copy of the first folder and call it second
-```bash
-# Your answer goes here
-```
-
-8. Delete the second folder
+5. Count the number of lines the word "Broccoli" appears on (using ```wc``` and ```grep```).
 ```bash
 # Your answer goes here
 ```
